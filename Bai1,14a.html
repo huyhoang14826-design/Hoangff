@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Lịch trình chuyến bay</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #777;
+            padding: 10px;
+        }
+        th {
+            background-color: #0066cc;
+            color: white;
+            text-transform: uppercase;
+        }
+        .time-col {
+            color: red;
+            font-weight: bold;
+        }
+        .departure {
+            color: blue;
+        }
+        .destination {
+            color: orange;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>LỊCH TRÌNH CÁC CHUYẾN BAY</h2>
+
+    <table>
+        <tr>
+            <th rowspan="2">THỜI GIAN</th>
+            <th colspan="2">TUYẾN</th>
+        </tr>
+        <tr>
+            <th>Nơi đi</th>
+            <th>Nơi đến</th>
+        </tr>
+        <tr>
+            <td rowspan="2" class="time-col">Sáng</td>
+            <td class="departure">TP Hồ Chí Minh</td>
+            <td class="destination">Hà Nội</td>
+        </tr>
+        <tr>
+            <td class="departure">TP Hồ Chí Minh</td>
+            <td class="destination">Singapore</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="time-col">Chiều</td>
+            <td class="departure">Hà Nội</td>
+            <td class="destination">New York</td>
+        </tr>
+        <tr>
+            <td class="departure">TP Hồ Chí Minh</td>
+            <td class="destination">Phú Quốc</td>
+        </tr>
+    </table>
+</body>
+</html>
