@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>TIN TỨC 24H</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+    background: #eee;
+}
+header {
+    background: #ddd;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 60px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin: 0;
+}
+nav {
+    background: #3b6ea5;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    color: white;
+    margin-right: 25px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.form {
+    width: 65%;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-row label {
+    width: 150px;
+}
+
+input[type="text"], select, textarea {
+    width: 60%;
+    padding: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+.sidebar {
+    width: 35%;
+    padding-left: 40px;
+}
+
+.sidebar p {
+    margin: 12px 0;
+}
+.buttons {
+    margin-left: 150px;
+}
+
+.submit {
+    background: green;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
+
+.reset {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    color: blue;
+    background: #ddd;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<header>
+    <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" class="logo">
+    <h1>TIN TỨC 24H</h1>
+</header>
+
+<nav>
+    <ul>
+        <li>Chính trị</li>
+        <li>Xã hội</li>
+        <li>Sức khỏe</li>
+        <li>Giáo dục</li>
+        <li>Thể thao</li>
+        <li>Liên hệ</li>
+    </ul>
+</nav>
+
+<div class="container">
+<div class="form">
+<form>
+
+<div class="form-row">
+<label>Họ tên: *</label>
+<input type="text" placeholder="Họ tên">
+</div>
+
+<div class="form-row">
+<label>Địa chỉ:</label>
+<input type="text" placeholder="Địa chỉ">
+</div>
+
+<div class="form-row">
+<label>Số điện thoại: *</label>
+<input type="text" placeholder="Số điện thoại">
+</div>
+
+<div class="form-row">
+<label>Giới tính:</label>
+<input type="radio"> Nam
+<input type="radio"> Nữ
+</div>
+
+<div class="form-row">
+<label>Năm sinh:</label>
+<select>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+</select>
+</div>
+
+<div class="form-row">
+<label>Nội dung liên hệ: *</label>
+<textarea></textarea>
+</div>
+
+<div class="buttons">
+<button class="submit">Gửi thông tin góp ý</button>
+<button type="reset" class="reset">Nhập lại</button>
+</div>
+
+</form>
+</div>
+<div class="sidebar">
+<p>Tin tức thị trường</p>
+<p>Tin tức trong ngày</p>
+<p>Thông tin chứng khoán</p>
+<p>Sức khỏe đời sống</p>
+<p>Công nghệ thông tin</p>
+</div>
+
+</div>
+
+<footer>
+<p>Cơ quan chủ quản: Công ty Cổ phần Quảng cáo Trực tuyến 24H</p>
+<p>© 24h.com</p>
+</footer>
+
+</div>
+
+</body>
+</html>
